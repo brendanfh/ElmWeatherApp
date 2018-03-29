@@ -1,0 +1,29 @@
+{
+  "name": "yarn-webpack-elm",
+  "version": "0.0.1",
+  "description": "Learning yarn, webpack, and elm",
+  "main": "index.js",
+  "author": "Brendan Hansen",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "api": "node api.js",
+    "build": "webpack",
+    "client": "webpack-dev-server --port 8080",
+    "start": "nf start"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.9",
+    "elm-github-install": "^1.6.1",
+    "elm-webpack-loader": "^4.4.0",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.9",
+    "foreman": "^2.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "json-server": "0.9.5",
+    "style-loader": "^0.20.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
